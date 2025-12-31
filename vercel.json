@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/git-guide/(.*)",
+      "destination": "https://git-guide-ten.vercel.app/$1"
+    }
+  ]
+}
