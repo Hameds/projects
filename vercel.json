@@ -3,10 +3,14 @@
     {
       "source": "/git-guide/(.*)",
       "destination": "https://git-guide-ten.vercel.app/$1"
+    },    
+    {
+      "source": "/security-checklist",
+      "destination": "https://security-checklist-fa.vercel.app/security-checklist"
     },
     {
-      "source": "/security-checklist/(.*)",
-      "destination": "https://security-checklist-fa.vercel.app/$1"
+      "source": "/security-checklist/:path*",
+      "destination": "https://security-checklist-fa.vercel.app/security-checklist/:path*"
     }
   ]
 }
