@@ -1,9 +1,13 @@
 {
   "rewrites": [
     {
-      "source": "/git-guide/(.*)",
-      "destination": "https://git-guide-ten.vercel.app/$1"
-    },    
+      "source": "/git-guide",
+      "destination": "https://git-guide-ten.vercel.app/"
+    },
+    {
+      "source": "/git-guide/:path*",
+      "destination": "https://git-guide-ten.vercel.app/:path*"
+    },
     {
       "source": "/security-checklist",
       "destination": "https://security-checklist-fa.vercel.app/security-checklist"
